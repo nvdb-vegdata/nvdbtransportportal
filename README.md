@@ -16,7 +16,7 @@ Accept: application/vnd.vegvesen.nvdb-v3-rev1+json
 Accept: application/vnd.vegvesen.nvdb-v3-rev1+xml
 ```
 
-The standard media types `application/json`and `application/xml` will always return the newest format version.
+The standard media types `application/json` and ` application/xml` will always return the newest format version.
 
 
 ## Tracking requests and sessions
@@ -27,9 +27,30 @@ At least one of these http headers must be set by the client:
 "User-Agent" : "Name of your fantastic system" 
 ```
 We really, really appreciate if at least one of these, preferably both, are given meaningful names. It gives us valuable 
-information about who uses our API, and for what purpose. In addition, we also recommend (and appreciate) that you track your session using the `X-Client-Session` set to UUID or something similar. 
+information about who uses our API, and for what purpose. In addition, we also recommend (and appreciate) that you track your sessions using the `X-Client-Session` set to something uniqe per session, such as an UUID or something similar. 
 
-The API response will contain the header `X-REQUEST-ID`, which is probably useful if you need to report a problem. 
+The API response contains the header `X-REQUEST-ID`, which is useful if you need to report a problem. 
 
 ## Pagination 
 
+The response contains two parts: 
+  * A list of the objects, with maximum 1000 elements
+  * A metadata-element
+  
+The metadata describes how many objects satisfying your query _(antall)_, the number returned with this page _(returnert)_, 
+the number of elements per page _(sidestørrelse)_ and the link _(href)_ to the next page of data. To fetch all data 
+you need to iterate through all pages (following the _href_ link on each page) untill you get an empty page (i.e. the list _objekter_ is empty and the metadata element  _returnert_ = 0. 
+
+```json
+{  "objekter": [ { "long" : "list" }, { "of" : "objects" } ], 
+  "metadata": {
+    "antall": 1001, 
+    "returnert": 1000,
+    "sidestørrelse": 1000,
+    "neste": {
+      "start": "AEhZez1g4yb",
+      "href": "/api-endpoint?start=AEhZez1g4yb"
+    }
+  }
+}
+```
