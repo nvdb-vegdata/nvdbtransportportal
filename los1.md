@@ -3,11 +3,16 @@
 
 *Generic introduction, To be written*
 
+## Sample - what a table of NVDB features and property types migth look like. 
 
+This is what a full listing of NVDB feature types and all properties looks like. 
+
+Delete the rows that aren't needed and fill in English descriptions of those that are. 
+
+Compare with the more compact listing [here](los2.md) - same data, but withouth details about the properties of each feature. 
 
 ## Table of NVDB features in this category 
 
-Road network *(appropiate links to appropiate descriptions, to be written..)*
 
 | Feature type |  Description | Selected properties |Description  |
 |---|---|---|---|

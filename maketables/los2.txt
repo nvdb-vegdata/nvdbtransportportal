@@ -1,14 +1,3 @@
-# Category:  Traffic information
-
-
-To be written 
-
-## Sample - what a listing of NVDB feature types might look like 
-
-Compare with the more expressive listing [here](los1.md) - same data, but with detailed listing of the properties of each feature. 
-
-
-## Table of NVDB features in this category 
 | Feature type |  Description | 
 |---|---|
 | [809 Døgnhvileplass](https://datakatalogen.vegdata.no/809) | |

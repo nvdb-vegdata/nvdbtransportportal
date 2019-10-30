@@ -1,14 +1,16 @@
 # Category:  Road network and regulations
 
 
-To be written 
+_Short introduction, To be written..._
 
 
 
 ## Table of NVDB features in this category 
 
+Road network *(appropiate links to appropiate descriptions, to be written..)*
 
- | Feature type |  Description | Selected properties |Description  |
+
+| Feature type |  Description | Selected properties |Description  |
 |---|---|---|---|
 | [162 ATK-punkt](https://datakatalogen.vegdata.no/162) | | |  |
 | | | 9522 Navn | |
