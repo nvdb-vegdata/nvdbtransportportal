@@ -13,10 +13,10 @@ Compare with the more expressive listing [here](los1.md) - same data, but with d
 
 | Feature type |  Description | 
 |---|---|
-| [809 Døgnhvileplass](https://datakatalogen.vegdata.no/809) | |
-| [64 Ferjeleie](https://datakatalogen.vegdata.no/64) | |
-| [770 Ferjesamband](https://datakatalogen.vegdata.no/770) | |
-| [807 Ferjestrekning](https://datakatalogen.vegdata.no/807) | |
+| [809 Døgnhvileplass](https://datakatalogen.vegdata.no/809) | Some text |
+| [64 Ferjeleie](https://datakatalogen.vegdata.no/64) | to be written here |
+| [770 Ferjesamband](https://datakatalogen.vegdata.no/770) | So English speaking people can understand |
+| [807 Ferjestrekning](https://datakatalogen.vegdata.no/807) | Ferry  |
 | [833 Forbikjøringsstrekning](https://datakatalogen.vegdata.no/833) | |
 | [596 Forkjørsveg](https://datakatalogen.vegdata.no/596) | |
 | [48 Fortau](https://datakatalogen.vegdata.no/48) | |
@@ -31,4 +31,4 @@ Compare with the more expressive listing [here](los1.md) - same data, but with d
 | [451 Sykkelparkering](https://datakatalogen.vegdata.no/451) | |
 | [874 Sykkeltilbud, riksvegrute](https://datakatalogen.vegdata.no/874) | |
 | [243 Toalettanlegg](https://datakatalogen.vegdata.no/243) | |
-| [777 Turistveg](https://datakatalogen.vegdata.no/777) | |
+| [777 Turistveg](https://datakatalogen.vegdata.no/777) | Tourist route |
