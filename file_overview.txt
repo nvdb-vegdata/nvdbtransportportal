@@ -1,2 +1,34 @@
 # Oversikt, filer og innhold i nvdbtransportportal
 
+index.md    
+    # NAP - NVDB transportportal 
+    HOVEDSIDE. Generelt om NVDB og NAP, hvorfor vi beskriver API 
+    og ikke ferdige datasett 
+
+README.md 
+    # NVDB: Norway's National Road Database
+    Innføring i NVDB, på engelsk. Prinsipper for bruk. 
+    Avgrensning av spørring, inkluder det du vil ha
+    Angi User-agent og formater 
+
+konsept.md
+    # Road network concepts
+    NVDB vegnett, kilder til navigasjonsdata, NVDB vegnettmodell
+
+konsept2_datakatalog.md
+    # NVDB data catalogue
+    
+
+konsept3_vegobjekter.md
+    # NVDB features
+    Bruk av vegobjekter/ - endepunktet
+
+los1.md 
+    # Category: Mobility services
+
+los2.md
+    # Category: Traffic information 
+    
+los3.md
+    # Category: Road network and regulations
+
