@@ -16,5 +16,3 @@ We also provide a summary of the NVDB content relevant for the National Access P
   * [Mobility services](los1.md) (or whatever the name will be...)  
   * [Traffic information](los2.md)
   * [Road network and definitions](los3.md) 
-
-

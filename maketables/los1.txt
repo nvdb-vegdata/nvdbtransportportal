@@ -1,14 +1,3 @@
-# Category: mobility services
-
-
-*Generic introduction, To be written*
-
-
-
-## Table of NVDB features in this category 
-
-Road network *(appropiate links to appropiate descriptions, to be written..)*
-
 | Feature type |  Description | Selected properties |Description  |
 |---|---|---|---|
 | [809 Døgnhvileplass](https://datakatalogen.vegdata.no/809) | | |  |
