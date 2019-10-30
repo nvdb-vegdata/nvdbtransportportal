@@ -6,7 +6,9 @@ To be written
 
 
 ## Table of NVDB features in this category 
-| Feature type |  Description | Selected properties |Description  |
+
+
+ | Feature type |  Description | Selected properties |Description  |
 |---|---|---|---|
 | [162 ATK-punkt](https://datakatalogen.vegdata.no/162) | | |  |
 | | | 9522 Navn | |
@@ -20,7 +22,9 @@ To be written
  | | | 11461 Prosjektreferanse | |
  | | | 9521 Eier | |
  | | | 4828 Geometri, punkt | |
- |Bomstasjon | *FANT IKKE I DATAKATALOGEN* | | |
+ | | | | |
+|**Bomstasjon **| **FANT IKKE I DATAKATALOGEN** | | |
+| | | | |
 | [60 Bru](https://datakatalogen.vegdata.no/60) | | |  |
 | | | 1080 Navn | |
  | | | 2175 Nummer | |
@@ -39,10 +43,18 @@ To be written
  | | | 8969 Vedlikeholdsansvarlig | |
  | | | 4763 Geometri, linje | |
  | | | 8906 Geometri, flate | |
- |Bruksklasse modulvogntog| *FANT IKKE I DATAKATALOGEN* | | |
-|Bruksklasse normaltransport| *FANT IKKE I DATAKATALOGEN* | | |
-|Bruksklasse spesialtransport| *FANT IKKE I DATAKATALOGEN* | | |
-|Bruksklasse tømmertransport| *FANT IKKE I DATAKATALOGEN* | | |
+ | | | | |
+|**Bruksklasse modulvogntog**| **FANT IKKE I DATAKATALOGEN** | | |
+| | | | |
+| | | | |
+|**Bruksklasse normaltransport**| **FANT IKKE I DATAKATALOGEN** | | |
+| | | | |
+| | | | |
+|**Bruksklasse spesialtransport**| **FANT IKKE I DATAKATALOGEN** | | |
+| | | | |
+| | | | |
+|**Bruksklasse tømmertransport**| **FANT IKKE I DATAKATALOGEN** | | |
+| | | | |
 | [809 Døgnhvileplass](https://datakatalogen.vegdata.no/809) | | |  |
 | | | 9245 Navn | |
  | | | 9246 Lokalisert ved | |
@@ -87,8 +99,12 @@ To be written
  | | | 11845 Geometri, hjelpelinje | |
  | | | 5127 Gyldig fra dato | |
  | | | 9155 Arkivnummer | |
- |Fartsgrense variabel| *FANT IKKE I DATAKATALOGEN* | | |
-|Fartstavler| *FANT IKKE I DATAKATALOGEN* | | |
+ | | | | |
+|**Fartsgrense variabel**| **FANT IKKE I DATAKATALOGEN** | | |
+| | | | |
+| | | | |
+|**Fartstavler**| **FANT IKKE I DATAKATALOGEN** | | |
+| | | | |
 | [872 Faunapassasje](https://datakatalogen.vegdata.no/872) | | |  |
 | | | 10229 Lokalitetsnavn | |
  | | | 10230 Type | |
@@ -271,14 +287,20 @@ To be written
  | | | 4747 Geometri, punkt | |
  | | | 10890 Geometri, flate | |
  | | | 9428 Utgår_Geometri, linje | |
- |Streknings ATK| *FANT IKKE I DATAKATALOGEN* | | |
-|Svingrestriksjoner| *FANT IKKE I DATAKATALOGEN* | | |
+ | | | | |
+|**Streknings ATK**| **FANT IKKE I DATAKATALOGEN** | | |
+| | | | |
+| | | | |
+|**Svingrestriksjoner**| **FANT IKKE I DATAKATALOGEN** | | |
+| | | | |
 | [907 Sykkelrute, hovednett by/tettsted](https://datakatalogen.vegdata.no/907) | | |  |
 | | | 10942 Navn | |
  | | | 10943 Nummer | |
  | | | 10944 Skiltet | |
  | | | 11652 Tilleggsinformasjon | |
- |Sykkelrute tur/fritid| *FANT IKKE I DATAKATALOGEN* | | |
+ | | | | |
+|**Sykkelrute tur/fritid**| **FANT IKKE I DATAKATALOGEN** | | |
+| | | | |
 | [826 TEN-T veg](https://datakatalogen.vegdata.no/826) | | |  |
 | | | 10945 CEDR Strekningsnavn | |
  | | | 11500 CEDR Lenkekode | |
@@ -399,7 +421,9 @@ To be written
  | | | 5261 Dataopprinnelse | |
  | | | 5260 Dato registrert | |
  | | | 6923 Geometri, hjelpelinje | |
- |Vegbredde beregnet| *FANT IKKE I DATAKATALOGEN* | | |
+ | | | | |
+|**Vegbredde beregnet**| **FANT IKKE I DATAKATALOGEN** | | |
+| | | | |
 | [37 Vegkryss](https://datakatalogen.vegdata.no/37) | | |  |
 | | | 1073 Navn | |
  | | | 1114 Type | |
@@ -414,8 +438,12 @@ To be written
  | | | 10395 Etableringsår | |
  | | | 11479 Prosjektreferanse | |
  | | | 4744 Geometri, punkt | |
- |Vegoppmerking langsgående| *FANT IKKE I DATAKATALOGEN* | | |
-|Vegoppmerking tverrgående| *FANT IKKE I DATAKATALOGEN* | | |
+ | | | | |
+|**Vegoppmerking langsgående**| **FANT IKKE I DATAKATALOGEN** | | |
+| | | | |
+| | | | |
+|**Vegoppmerking tverrgående**| **FANT IKKE I DATAKATALOGEN** | | |
+| | | | |
 | [532 Vegreferanse](https://datakatalogen.vegdata.no/532) | | |  |
 | | | 4591 Fylkesnummer | |
  | | | 4592 Kommunenummer | |
