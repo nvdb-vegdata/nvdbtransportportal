@@ -14,9 +14,6 @@ Compare with the more expressive listing [here](los1.md) - same data, but with d
 | Feature type |  Description | 
 |---|---|
 | [809 Døgnhvileplass](https://datakatalogen.vegdata.no/809) | |
-| | |
-|**Feltstrekning (?)**| **FANT IKKE I DATAKATALOGEN** |
-| | |
 | [64 Ferjeleie](https://datakatalogen.vegdata.no/64) | |
 | [770 Ferjesamband](https://datakatalogen.vegdata.no/770) | |
 | [807 Ferjestrekning](https://datakatalogen.vegdata.no/807) | |
