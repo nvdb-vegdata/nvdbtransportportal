@@ -9,6 +9,8 @@ Compare with the more expressive listing [here](los1.md) - same data, but with d
 
 
 ## Table of NVDB features in this category 
+
+
 | Feature type |  Description | 
 |---|---|
 | [809 Døgnhvileplass](https://datakatalogen.vegdata.no/809) | |
