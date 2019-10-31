@@ -6,6 +6,9 @@ order: 1
 The NVDB API is a REST api with extensive search- and filter capabilities, as well as options for fine tuning which 
 data elements to include in the respons. 
 
+[Vegkart](vegkart.md) is your best tool for digging into NVDB data, getting famiiar with the data structure and content. 
+The download capabilities of Vegkart is also sufficient for many use cases. 
+
 ## Formats
 
 The response formats from the API may be either XML or JSON (default), which you chooose using the 
