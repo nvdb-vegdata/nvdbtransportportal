@@ -9,6 +9,12 @@ data elements to include in the respons.
 [Vegkart](vegkart.md) is your best tool for digging into NVDB data, getting famiiar with the data structure and content. 
 The download capabilities of Vegkart is also sufficient for many use cases. 
 
+Below, we give sufficient details of how to communicate with the API. We also highly recomend that you read these pages: 
+  * [NVDB data catalogue](konsept2_datakatalog.md) How to find your way among 400 feature types
+  * [NVDB features](konsept3_vegobjekter.md) The actual data content of NVDB 
+  * [NVDB reference metering](konsept4_roadreference.md) Labeling the road network with category, numbers, sections and meters. 
+  * [NVDB network model](konsept5_network.md) Nodes, link sequences and links, oh my
+
 ## Formats
 
 The response formats from the API may be either XML or JSON (default), which you chooose using the 
