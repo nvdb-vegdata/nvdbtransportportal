@@ -8,10 +8,12 @@ data elements to include in the respons.
 
 [Vegkart](vegkart.md) is your best tool for digging into NVDB data, getting famiiar with the data structure and content. 
 The download capabilities of Vegkart is also sufficient for many use cases. 
+[This article](https://www.vegdata.no/ofte-stilte-sporsmal/hvordan-far-jeg-nvdb-data-inn-i-kartsystemet-mitt/) (in Norwegian) also 
+gives an overview and recipies for how to get NVDB data into your mapping application / GIS.
 
 Below, we give sufficient details of how to communicate with the API. We also highly recomend that you read these pages: 
   * [NVDB data catalogue](konsept2_datakatalog.md) How to find your way among 400 feature types
-  * [NVDB features](konsept3_vegobjekter.md) The actual data content of NVDB 
+  * [NVDB features](konsept3_vegobjekter.md) Getting the actual data throught the `/vegobjekter` end point 
   * [NVDB reference metering](konsept4_roadreference.md) Labeling the road network with category, numbers, sections and meters. 
   * [NVDB network model](konsept5_network.md) Nodes, link sequences and links, oh my
 
