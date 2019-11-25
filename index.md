@@ -12,7 +12,7 @@ For simple use cases we hope this will be sufficient. However, beware that the N
 is complex, and for more complex queries or use cases you will need 
 to understand the Norwegian API documentation or [NVDB data catalogue](https://datakatalogen.vegdata.no). 
 
-We also provide a summary of the NVDB content relevant for the National Access Point, for the categories 
-  * [Mobility services](los1.md) (or whatever the name will be...)  
+We also provide a summary of the NVDB content relevant for the [National Access Point](http://transportportal.no), for the categories 
+  * [Mobility services](los1.md)
   * [Traffic information](los2.md)
   * [Road network and definitions](los3.md) 

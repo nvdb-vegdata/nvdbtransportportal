@@ -5,6 +5,7 @@ This is the **subset of** the Norwegian data within the NAP - category _Traffic 
 
 ## Table of NVDB features in this category 
 
+The links below will take you to the [NVDB data catalogue](./konsept2_datakatalog.md) (in Norwegian text only), giving a detailed description of the properties of each feature type  and how it relates to the [NVDB road network](./konsept5_network.md) and other NVDB-features. 
 
 | Feature type |  Description | 
 |---|---|
