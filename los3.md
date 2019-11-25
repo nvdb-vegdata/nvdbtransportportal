@@ -2,6 +2,12 @@
 
 The Norwegian data within the NAP - category _Road network and regulations_ consists of the [road network](./konsept5_network.md) and the list of features described below. All data reside within the Norwegian road data base (NVDB), and are available through our [API](./index.md) as well as our popular web application [vegkart](vegkart.md). 
 
+### The road network 
+
+The NVDB road network and selected features (such as speed limits) is transformed into several products for mapping and navigation. You may also query the NVDB api for raw details about nodes, links and the like. 
+
+Please [see here](./konsept5_network.md) for details. 
+
 ### Table of NVDB features in this category 
 
 The links below will take you to the [NVDB data catalogue](./konsept2_datakatalog.md) (in Norwegian text only), giving a detailed description of the properties of each feature type  and how it relates to the [NVDB road network](./konsept5_network.md) and other NVDB-features. 
