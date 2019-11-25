@@ -1,11 +1,6 @@
-# Category: mobility services
+# Category: Mobility services
 
-
-To be written 
-
-## Sample - what a listing of NVDB feature types might look like 
-
-Compare with the more expressive listing [here](los2.md) - same data, but with detailed listing of the properties of each feature. 
+This is the **subset of** the Norwegian data within the NAP - category _Mobility Services_ that resides within the [Norwegian road data base (NVDB)](http://nvdbtransportportal.vegdata.no/). The NVDB subset is available through our [API](./index.md) as well as our popular web application [vegkart](vegkart.md). 
 
 
 ## Table of NVDB features in this category 
@@ -13,22 +8,14 @@ Compare with the more expressive listing [here](los2.md) - same data, but with d
 
 | Feature type |  Description | 
 |---|---|
-| [809 Døgnhvileplass](https://datakatalogen.vegdata.no/809) | Some text |
-| [64 Ferjeleie](https://datakatalogen.vegdata.no/64) | to be written here |
-| [770 Ferjesamband](https://datakatalogen.vegdata.no/770) | So English speaking people can understand |
-| [807 Ferjestrekning](https://datakatalogen.vegdata.no/807) | Ferry  |
-| [833 Forbikjøringsstrekning](https://datakatalogen.vegdata.no/833) | |
-| [596 Forkjørsveg](https://datakatalogen.vegdata.no/596) | |
-| [48 Fortau](https://datakatalogen.vegdata.no/48) | |
-| [835 Gangadkomst](https://datakatalogen.vegdata.no/835) | |
-| [174 Gangfelt](https://datakatalogen.vegdata.no/174) | |
-| [538 Gate](https://datakatalogen.vegdata.no/538) | |
-| [42 Kollektivknutepunkt](https://datakatalogen.vegdata.no/42) | |
-| [44 Kontroll-/veieplass](https://datakatalogen.vegdata.no/44) | |
-| [886 Omkjøringsrute](https://datakatalogen.vegdata.no/886) | |
-| [43 Parkeringsområde](https://datakatalogen.vegdata.no/43) | |
-| [39 Rasteplass](https://datakatalogen.vegdata.no/39) | |
-| [451 Sykkelparkering](https://datakatalogen.vegdata.no/451) | |
-| [874 Sykkeltilbud, riksvegrute](https://datakatalogen.vegdata.no/874) | |
-| [243 Toalettanlegg](https://datakatalogen.vegdata.no/243) | |
+| [809 Døgnhvileplass](https://datakatalogen.vegdata.no/809) | Night stop rest area |
+| [64 Ferjeleie](https://datakatalogen.vegdata.no/64) | Ferry quay  |
+| [48 Fortau](https://datakatalogen.vegdata.no/48) | Sidewalk  |
+| [835 Gangadkomst](https://datakatalogen.vegdata.no/835) | Acces for pedestrians |
+| [43 Parkeringsområde](https://datakatalogen.vegdata.no/43) | Parking area |
+| [39 Rasteplass](https://datakatalogen.vegdata.no/39) | Rest area |
+| [451 Sykkelparkering](https://datakatalogen.vegdata.no/451) | Bike parking |
+| [874 Sykkeltilbud, riksvegrute](https://datakatalogen.vegdata.no/874) | Bike service level for major road |
+| [243 Toalettanlegg](https://datakatalogen.vegdata.no/243) | Toilet |
 | [777 Turistveg](https://datakatalogen.vegdata.no/777) | Tourist route |
+| [452 Undergang](https://datakatalogen.vegdata.no/452) | Passage underneath the road |
