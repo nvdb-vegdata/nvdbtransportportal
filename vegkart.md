@@ -46,5 +46,11 @@ At the bottom, you have two download options:
   * Download CSV _(all data quoted by " and separated by semicolon ; and charset = latin1). **This functionality is under development for vegkart V3, please use [Vegkart V2](http://vegkart.no) while we fix this** 
   * A link to the exact API query that Vegkart has used to fetch data for you. _Vegkart is therefore an excellent starting point for learing how to use NVDB api._
   
+# Filtering your query
 
+The filtering functionality of Vegkart V3 is still under development, for advanced filtering please check [Version 2 of vegkart](http://vegkart.no)
+
+_Legg til filter_ = add filter, _fjern filter_ = remove filter. 
+
+![vegkart download functions](./pics/vegkart_v2_filter.png)
   
