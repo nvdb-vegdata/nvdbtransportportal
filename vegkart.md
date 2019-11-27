@@ -40,7 +40,7 @@ Notice how autocomplete will guide you to the right termes. By and zooming in an
 
 By clicking the `6 vegobjekter` symbol you will be shown a list of the features matching your query:
 
-![vegkart download functions](./pics/vegkart_lastned.md.png)
+![vegkart download functions](./pics/vegkart_lastned.png)
 
 At the bottom, you have two download options: 
   * Download CSV _(all data quoted by " and separated by semicolon ; and charset = latin1). **This functionality is under development for vegkart V3, please use [Vegkart V2](http://vegkart.no) while we fix this** 
@@ -54,3 +54,10 @@ _Legg til filter_ = add filter, _fjern filter_ = remove filter.
 
 ![vegkart download functions](./pics/vegkart_v2_filter.png)
   
+# Color coding by attribute values
+
+_Kategoriser_ = in this context, categorize by attribute value, i.e. draw each category with a different color. 
+
+This feature is still under development in Vegkart V3, here we show an example of Vegkart V2: 
+
+![vegkart cateogires](./pics/vegkart_v2_kategorisering.png)
