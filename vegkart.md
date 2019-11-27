@@ -8,7 +8,7 @@ order: 2
   * [Version 3 of Vegkart](https://www.vegvesen.no/nvdb/vegkart/v3) is still under development, and some advanced features are lacking. The most important change from V2 is 
     * A major revision of the [road reference system](./konsept4_roadreference.md)
     * After 1st January 2020, the new administrative areas _fylke_ (region) and _kommune_ (municipality) will be enforced
-  * [Version 2 of Vegkart](http://vegkart.no) is still the official version, but will remain avialable untill August 2021 - with the old (present) [road reference system]{./konsept4_roadreference.md) and administrative areas according to the year 2019. 
+  * [Version 2 of Vegkart](http://vegkart.no) will remain avialable untill August 2021 - with the old [road reference system](./konsept4_roadreference.md) and administrative areas according to the year 2019. 
 
 ### Vegkart main components 
 
