@@ -24,7 +24,7 @@ The NVDB data catalogue has several manifestations:
 
 ### Within Vegkart 
 
-In [http://vegkart.no](vegkart.no) the data catalogue is found by toggling the book symbol situated next to the query box.
+In our web application [vegkart](./vegkart.md) the data catalogue is found by toggling the book symbol situated next to the query box.
 
 ### The `vegobjekttyper/`end point of the NVDB api
 
