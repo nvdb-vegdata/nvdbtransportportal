@@ -23,7 +23,7 @@ The welcome splash screen is used to convey important information about NVDB. Be
 
 Below, we have highlighted how to close the splash screen and how to prevent it from opening every time you open Vegkart. 
 
-![vegkart main layout](./pics/vegkart_splash.png)
+![vegkart splash screen](./pics/vegkart_splash.png)
 
 # Practical example
 
@@ -34,11 +34,13 @@ europaveger
 ```  
 Notice how autocomplete will guide you to the right termes. By and zooming in and clicking you should see something similar to: 
 
+![vegkart speed limit](./pics/vegkart_fartsgrense.png)
+
 # Download functionality
 
 By clicking the `6 vegobjekter` symbol you will be shown a list of the features matching your query:
 
-![vegkart main layout](./pics/vegkart_lastned.md.png)
+![vegkart download functions](./pics/vegkart_lastned.md.png)
 
 At the bottom, you have two download options: 
   * Download CSV _(all data quoted by " and separated by semicolon ; and charset = latin1). **This functionality is under development for vegkart V3, please use [Vegkart V2](http://vegkart.no) while we fix this** 
