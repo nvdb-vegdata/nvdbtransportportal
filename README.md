@@ -7,7 +7,7 @@ The NVDB API is a REST api with extensive search- and filter capabilities, as we
 data elements to include in the respons. 
 
 [Vegkart](vegkart.md) is your best tool for digging into NVDB data, getting famiiar with the data structure and content. 
-The download capabilities of Vegkart is also sufficient for many use cases. 
+The CSV download capabilities of Vegkart is also sufficient for many use cases **- but vegkart is also an excellent training ground for API queries**: Vegkart provides the link to the exact same API query that Vegkart uses to fetch data according to your vegkart-manipulations. 
 [This article](https://www.vegdata.no/ofte-stilte-sporsmal/hvordan-far-jeg-nvdb-data-inn-i-kartsystemet-mitt/) (in Norwegian) also 
 gives an overview and recipies for how to get NVDB data into your mapping application / GIS.
 
