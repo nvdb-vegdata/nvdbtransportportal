@@ -5,6 +5,11 @@ order: 2
 
 [Vegkart](https://www.vegvesen.no/nvdb/vegkart/v3) is the tool for learning and browsing NVDB data and road network. For many  use cases the CSV download utility is sufficient, but Vegkart is also an excellent starting point for learning how to build API queries. 
 
+  * [Version 3 of Vegkart](https://www.vegvesen.no/nvdb/vegkart/v3) is still under development, and some advanced features are lacking. The most important change from V2 is 
+    * A major revision of the [road reference system](./konsept4_roadreference.md)
+    * After 1st January 2020, the new administrative areas _fylke_ (region) and _kommune_ (municipality) will be enforced
+  * [Version 2 of Vegkart](http://vegkart.no) is still the official version, but will remain avialable untill August 2021 - with the old (present) [road reference system]{./konsept4_roadreference.md) and administrative areas according to the year 2019. 
+
 ### Vegkart main components 
 
   * **Map canvas** - which also is a geographic filter, so zooming and panning will affect the results. _(This can be overruled by adding the name of specific geographic areas of interest to the query box)_. The map is interactive: Clicking on a road will display road number and other [road reference info](./konsept4_roadreference.md), and clicking on a feature will display info about the feature. 
