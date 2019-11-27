@@ -7,10 +7,12 @@ Vegkart is the tool for learning and browsing NVDB data and road network. For ma
 
 ### Vegkart main components 
 
-1. **Map canvas** - which also is a geographic filter, so zooming and panning will affect the results. _(This can be overruled by adding the name of specific geographic areas of interest to the query box)_. The map is interactive: Clicking on a road will display road number and other [road reference info](./konsept4_roadreference.md), and clicking on a feature will display info about the feature. 
-2. **Our logo** (refresh) and **info** (opens the welcome splash screen). 
-3. **Map controls**. Zoom, background map. 
-4. **Query box**. This is the heart of Vegkart, with loads of filtering and quering options, including but not limited to road number, municipality and name of feature type.  
+  * **Map canvas** - which also is a geographic filter, so zooming and panning will affect the results. _(This can be overruled by adding the name of specific geographic areas of interest to the query box)_. The map is interactive: Clicking on a road will display road number and other [road reference info](./konsept4_roadreference.md), and clicking on a feature will display info about the feature. 
+  * **Our logo** (refresh) 
+  * **info** (opens the welcome splash screen). 
+  * **Map controls**. Zoom, change background map, center on position. 
+  *  **Query box**. This is the heart of Vegkart, with loads of filtering and quering options, including but not limited to road number, municipality and name of feature type. 
+  * **Show data catalogue** toggle switch will transform the query box into [data catalogue browser](./konsept2_datakatalog.md).  
 
 ![vegkart main layout](./pics/vegkart_main.png)
 
