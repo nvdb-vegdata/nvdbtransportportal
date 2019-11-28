@@ -25,6 +25,18 @@ Together, this constitutes the complete road reference of the form **Ev6 S78D1 m
  
 # Old road reference system 
 
+The old reference system is no longer in use from January 1st, 2020, but will be available through version 2 of NVDB api and vegkart untill August 2021. The components are: 
+
+  * _Fylkesnummer_ = County number
+  * _Kommunenummer_ = Municipality number. Always 00 for road category E, R and F. 
+  * Road category: E, R, F, K, P or S. 
+  * Road status
+  * Road number
+  * _hovedparsel_, Hp - Road segment
+  * meters. 
+  
+Along each _*hovedparsel_ we count meters, starting at 0 for each new _hovedparsel_. This is not entirely unlike the new system of _delstrekning_, but the values of those two systems should not be used interchangeably. 
+
 ![vegkart reference](./pics/vegkart_ny_og_gammel.png)
 
 
