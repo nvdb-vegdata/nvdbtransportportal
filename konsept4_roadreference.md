@@ -2,7 +2,7 @@
 
 The reference system will label each and every road in Norway with a road category, a road number and a metering system. Starting the year 2020, we have a major upgrade of the reference system. For technical reason, we have to run the old system in parallel with the new untill August 2020. The two systems are available through version 2 (old) and version 3 (new) of NVDB api and Vegkart. 
 
-## Road divided into _strekning, delstrekning and meters 
+## Road divided into strekning, delstrekning and meters 
 
 Each road within each road category has a unique number. The road is split into smaller parts, first into _strekning_ (section), which again is subdivided into _delstrekning_ (subsection). Along each _delstrekning_ we count meters, starting at 0 at the beginning of the next _delstrekning_. 
 
@@ -16,7 +16,7 @@ Together, this constitutes the complete road reference of the form **Ev6 S78D1 m
 
 The above model with _strekning_ and _delstrekning_ is adequate for describing the main alignment of the road, but in complex junctions and bifurcations we need to add a bit more. 
 
-The idea is that any bifurcations from the main aligment is _*anchored*_ at a point at the main alignment centerline. This syntax is described in the previous section. We then add a new, separate labeling system and a separate metering system for the different parts of the bifurcations. In a motorway junction, the different ramps typically get a unique label and metering. 
+The idea is that any bifurcations from the main aligment is _**anchored**_ at a point at the main alignment centerline, following the syntax of the previous section. We then add a new, separate labeling system and a separate metering system for the different parts of the bifurcations. In a motorway junction, the different ramps typically get a unique label and metering. 
 
 We have two classes of bifurcations:
  
@@ -52,7 +52,7 @@ The old reference system is no longer in use from January 1st, 2020, but will be
   * _hovedparsel_, Hp - Road segment number
   * meters. 
   
-Along each _hovedparsel_ we count meters, starting at 0 for each new _hovedparsel_. This is not entirely unlike the new system of _delstrekning_, but the values of those two systems should not be used interchangeably. There is consideraby logic involved in the number series, se [here](https://api.vegdata.no/verdi/vegreferanse.html) for details. All this information is held in one single feature type: [532 vegreferanse](https://datakatalogen.vegdata.no/532-Vegreferanse). 
+Along each _hovedparsel_ we count meters, starting at 0 for each new _hovedparsel_. This is not entirely unlike the new system of _delstrekning_, but the values of those two systems should not be used interchangeably. There is consideraby logic involved in the codes for road status and the number series for _hovedparsell_ and meters, se [here](https://api.vegdata.no/verdi/vegreferanse.html) for details. All this information is held in one single feature type: [532 vegreferanse](https://datakatalogen.vegdata.no/532-Vegreferanse). 
 
 ![vegkart reference](./pics/vegkart_ny_og_gammel.png)
 
