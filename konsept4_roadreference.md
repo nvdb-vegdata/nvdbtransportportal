@@ -1,7 +1,6 @@
+# Road reference system
 
 The reference system will label each and every road in Norway with a road category, a road number and a metering system. Starting the year 2020, we have a major upgrade of the reference system. For technical reason, we have to run the old system in parallel with the new untill August 2020. The two systems are available through version 2 (old) and version 3 (new) of NVDB api and Vegkart. 
-
-# The new reference system (from 2020-01-01)
 
 ## Road divided into _strekning, delstrekning and meters 
 
