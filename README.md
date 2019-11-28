@@ -16,7 +16,7 @@ Below, we give sufficient details of how to communicate with the API. We also hi
   * [NVDB data catalogue](konsept2_datakatalog.md) How to find your way among 400 feature types
   * [NVDB features](konsept3_vegobjekter.md) Getting the actual data throught the `/vegobjekter` end point 
   * [NVDB reference metering](konsept4_roadreference.md) Labeling the road network with category, numbers, sections and meters. 
-  * [NVDB network model](konsept5_network.md) Nodes, link sequences and links, oh my
+  * [NVDB network model](konsept5_network.md) Network data set for navigations - or nodes, link sequences and links, oh my
 
 ## Formats
 
