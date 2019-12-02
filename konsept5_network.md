@@ -58,7 +58,65 @@ Close to the roundabout, we need to supplement the _vegtrasé_ level with links 
 
 [https://www.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/](https://www.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/)
 
-[https://www.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/<ID>](https://www.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/20000)
+[https://www.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/FeatureID](https://www.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/20000)
 
 This end point exposes you to the beautifull detail of links, nodes and ports (though nodes and ports can be ignored for many use cases). 
+
+This end point supports most, but not all of the filters described under the [./NVDB features](./konsept3_vegobjekter.md). See the [documentation](https://nvdbapilesv3.docs.apiary.io/#reference/0/vegnett-lenkesekvens/vegnett-veglenkesekvens) for details. 
+
+### The sligthly more consumer friendly 
+
+
+
+
+### Road network terminology 
+
+_to be written... _
+
+detaljnivå
+feltoversikt
+geometri
+href
+høyde
+høydemetode
+høydenøyaktighet
+kjørefelt
+kortform
+kvalitet
+lengde
+medium
+metode
+måleDato
+måleDato
+målemetode
+nodeid
+nøyaktighet
+porter
+portnummer
+relativPosisjon
+relativposisjon
+retning
+sideposisjon
+sluttdato
+sluttport
+sluttposisjon
+srid
+startdato
+startport
+startposisjon
+superstedfesting
+synbarhet
+temakode
+tilkobling
+toleranse
+topologinivå
+type
+typeVeg
+typeVeg_sosi
+veglenkenummer
+veglenker
+veglenkesekvensid
+veglenkesekvensid
+verifiseringsdato
+
 
