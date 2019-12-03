@@ -1,6 +1,12 @@
 # Category:  Road network and regulations
 
-The Norwegian data within the NAP - category _Road network and regulations_ consists of the [road network](./konsept5_network.md) and the list of features described below. All data reside within the Norwegian road data base (NVDB), and are available through our [API](./index.md) as well as our popular web application [vegkart](vegkart.md). 
+
+
+This is the **subset of** the Norwegian data within the within the NAP - category _Road network and regulations_ that resides within the [Norwegian road data base (NVDB)](http://nvdbtransportportal.vegdata.no/). The NVDB subset is available through our [API](./index.md) as well as our popular web application [vegkart](vegkart.md). 
+
+Please visit the main NAP site [http://transportportal.no category: Road and road regulations](https://nap.fellesdatakatalog.brreg.no/?losTheme=trafikk-og-transport%2Fveg-og-vegregulering) for a complete view of the data available within this category.
+
+The NVDB data consists of the [road network](./konsept5_network.md) and the list of features described below. All data reside within the Norwegian road data base (NVDB), and are available through our [API](./index.md) as well as our popular web application [vegkart](vegkart.md). 
 
 ### The road network 
 
@@ -10,7 +16,7 @@ Please [see here](./konsept5_network.md) for details.
 
 ### Table of NVDB features in this category 
 
-The links below will take you to the [NVDB data catalogue](./konsept2_datakatalog.md) (in Norwegian text only), giving a detailed description of the properties of each feature type  and how it relates to the [NVDB road network](./konsept5_network.md) and other NVDB-features. 
+The links below will take you to the [NVDB data catalogue](./konsept2_datakatalog.md), giving a detailed description of the properties of each feature type  and how it relates to the [NVDB road network](./konsept5_network.md) and other NVDB-features. Unfortunately, the data catalogue itself is only available in English. 
 
 | Feature type |  Description | 
 |---|---|
