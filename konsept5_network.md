@@ -55,7 +55,7 @@ Close to the roundabout, we need to supplement the _vegtrasé_ level with links 
 
 ![roundabout network](./pics/flippinTopology.png)
 
-
+Above, we show two different ways to model motorway in NVDB. In the southern part, we have a model with a main center line _(vegtrasé) in between two _kjørebane_ links. In the nortern part, we don't use the lower topology level _kjørebane_, but have TWO  _vegtrasé_, one per direction. Both are perfectly valid representations of NVDB road network. However, flipping between these two models does cause inconvenience for users. NVDB features are always connected to the uppermost level _vegtrasé_. In the souther part, you need to derive if a feature applies to which one - or both - of the _kjørebane_ links through lane codes _(feltkoder)_. In the northern part, it is evident because each _vegtrasé_ link only describes either northbound or southbound part of the road. 
 
 ### The raw stuff: /vegnett/veglenkesekvenser
 
