@@ -67,59 +67,14 @@ This end point exposes you to the beautifull detail of links, nodes and ports (t
 
 This end point supports most, but not all of the filters described under the [./NVDB features](./konsept3_vegobjekter.md). See the [documentation](https://nvdbapilesv3.docs.apiary.io/#reference/0/vegnett-lenkesekvens/vegnett-veglenkesekvens) for details. 
 
-### The sligthly more consumer friendly 
+### The sligthly more consumer friendly: /vegnett/veglenkesekvenser/segmentert
 
+We have a slightly more user friendly version of the road network available through the _"Segmentert vegnett"_ (segmented road network) end point [https://www.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert](https://www.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert). It is called _segmented_ because we add information about [road reference](./konsept4_roadreference.md) and other administrative data through a segmentation process, so each link may be split into several tiny pieces. 
 
+This end point supports most, but not all of the filters described under the [./NVDB features](./konsept3_vegobjekter.md). 
 
+The NVDB api V2 has a similar representation, with similar filtering capabilities. 
 
-### Road network terminology 
-
-_to be written... _
-
-detaljnivå
-feltoversikt
-geometri
-href
-høyde
-høydemetode
-høydenøyaktighet
-kjørefelt
-kortform
-kvalitet
-lengde
-medium
-metode
-måleDato
-måleDato
-målemetode
-nodeid
-nøyaktighet
-porter
-portnummer
-relativPosisjon
-relativposisjon
-retning
-sideposisjon
-sluttdato
-sluttport
-sluttposisjon
-srid
-startdato
-startport
-startposisjon
-superstedfesting
-synbarhet
-temakode
-tilkobling
-toleranse
-topologinivå
-type
-typeVeg
-typeVeg_sosi
-veglenkenummer
-veglenker
-veglenkesekvensid
-veglenkesekvensid
-verifiseringsdato
-
+  * [V3 documentation](https://nvdbapilesv3.docs.apiary.io/#reference/0/vegnett-node/segmenter-for-veglenkesekvens) 
+  * [V2 documentation](https://api.vegdata.no/endepunkt/vegnett.html)
 
