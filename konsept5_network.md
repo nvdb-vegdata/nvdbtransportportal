@@ -4,6 +4,9 @@ The NVDB road network is combined with NVDB feature types in a wide range of app
 
 ![Show road network in Vegkart](./pics/vegnett_vegkart.png)
 
+Above, we show the NVDB road network registeted for pedestrians _(Gående og Syklende)_ in Vegkart V3. 
+
+
 ## For route planning and navigation
 
 The NVDB road network and relevant feature types (such as restrictions and speed limits) are joined into products suitable for route planning. These products are equivalent, but not identical. They are updated approximately 10 times each year. 

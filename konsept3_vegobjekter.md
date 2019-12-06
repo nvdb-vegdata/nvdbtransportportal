@@ -4,7 +4,9 @@ All features from the NVDB data cataloge (except for [a few that we aren't able 
 
 The feature type ID is found in the [NVDB data cataloge](./konsept2_datakatalog.md). 
 
-The default response is a list with the NVDB feature ID and link of the objects matching your query. This can be expanded 
+The default response is a list with the NVDB feature ID and link of the objects matching your query, and a metadata-element with details needed for [pagination](./README.md). 
+
+Obviously, you will find all relevant details for each road object by following the href link. But for many usecases, you would want to include more details about the individual features with the response. As shown below, you controll the details of what elements to include through the `inkluder` (= include) parameter. 
 
 ```json
 {
@@ -34,10 +36,17 @@ The default response is a list with the NVDB feature ID and link of the objects 
 }
 ```
 
-# Include more data with the response
+### Syntax for for including more details about road objects
 
 ```
 inkluder=alle
 inkluder=metadata,egenskaper,relasjoner,lokasjon,vegsegmenter,geometri
+
+https://www.vegvesen.no/nvdb/api/v3/vegobjekter/105?inkluder=alle&antall=3
 ```
+
+# Filters
+
+NVDB api has extensive filter capabilities, including [road reference](./konsept4_roadreference.md), [road network](./konsept5_network.md) link sequence ID and position, feature properties, administrative areas and bounding box (the _kartutsnitt_ parameter). Examples can be found in the NVDB api [V2](https://api.vegdata.no/parameter/avansertefilter.html) and [V3](https://nvdbapilesv3.docs.apiary.io/#reference/0/vegobjekter). 
+
 
