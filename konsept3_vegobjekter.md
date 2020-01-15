@@ -6,7 +6,7 @@ The feature type ID is found in the [NVDB data cataloge](./konsept2_datakatalog.
 
 The default response is a list with the NVDB feature ID and link of the objects matching your query, and a metadata-element with details needed for [pagination](./README.md). 
 
-Obviously, you will find all relevant details for each road object by following the href link. But for many usecases, you would want to include more details about the individual features with the response. As shown below, you controll the details of what elements to include through the `inkluder` (= include) parameter. 
+Obviously, you will find all relevant details for each road object by following the href link. But for many usecases, you would want to include more details about the individual features with the response. This is controlled using the `inkluder` (= include) parameter. 
 
 ```json
 {

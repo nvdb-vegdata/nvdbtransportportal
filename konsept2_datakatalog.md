@@ -9,7 +9,7 @@ name. Obviously, the data type is described (text, integer, floating number, dat
 Futher, the feature is attached to the road 
 network in a point or along it (i.e. a line). There are 
 various rules for how instances of this feature type may
- or may not overlap, if the feature type is supposed to be global (i.e. covering the whole road network, such as speed limits), and 
+ or may not overlap, if the feature type is supposed to be global (i.e. covering the whole road network, such as speed limits), and so on. 
  
 Finally, the feature type may have 
 `1:many` relationship to other feature types (which we call _forelder - barn_, i.e. parent - child relations), or there may be a `many:1` relation to a particular instance of some other feature type _(barn - forelder_, i.e. sibling-parent relation).  `Many:many` relationship are theoretical possible, but not used so far. 
