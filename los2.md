@@ -1,4 +1,4 @@
-# Category: Traffic information
+# Category: Static Traffic information
 
 This is the **subset of** the Norwegian data within the NAP - category _Traffic information_ that resides within the [Norwegian road data base (NVDB)](http://nvdbtransportportal.vegdata.no/). The NVDB subset is available through our [API](./index.md) as well as our popular web application [vegkart](vegkart.md). 
 
