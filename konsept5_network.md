@@ -37,7 +37,7 @@ In NVDB, the road network is defined through a combination of link sequences, li
 
 Think of link sequences as a list of links, and some of those links may be expired (but not deleted). 
 
-Links are connected through [nodes](https://nvdbapilesv3.docs.apiary.io/#reference/0/vegnett-noder/vegnett-noder). Technically, this connection goes through a port - but this level of detail is usually not nescessary for proper use of road network data. 
+Links are connected through [nodes](https://nvdbapiles-v3.atlas.vegvesen.no/dokumentasjon/openapi/#/Vegnett/get_vegnett_noder). Technically, this connection goes through a port - but this level of detail is usually not nescessary for proper use of road network data. 
 
 **The link sequence ID combined with the non-dimmensional linear reference system** (i.e. a number between 0-1) gives you a **persistent, permanent reference to the road network of NVDB**. This reference may point to an expired link, meaning that the road has been physically replaced, but the reference is still valid. 
 
@@ -57,24 +57,26 @@ Close to the roundabout, we need to supplement the _vegtrasé_ level with links 
 
 Above, we show two different ways to model motorway in NVDB. In the southern part, we have a model with a main center line _(vegtrasé) in between two _kjørebane_ links. In the nortern part, we don't use the lower topology level _kjørebane_, but have TWO  _vegtrasé_, one per direction. Both are perfectly valid representations of NVDB road network. However, flipping between these two models does cause inconvenience for users. NVDB features are always connected to the uppermost level _vegtrasé_. In the souther part, you need to derive if a feature applies to which one - or both - of the _kjørebane_ links through lane codes _(feltkoder)_. In the northern part, it is evident because each _vegtrasé_ link only describes either northbound or southbound part of the road. 
 
+To aid with sorting out these two different and somewhat confusing data models all road links have the property _**"adskilte løp"**_ (separated lanes), which either has the value "Nei" (no) for the southern part of this example, whereas in the Northern part we have _adskilte løp=Med_ (with) and _Mot_ (against), respectively. 
+
 ### The raw stuff: /vegnett/veglenkesekvenser
 
-[https://www.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/](https://www.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/)
+[https://nvdbapiles-v3.atlas.vegvesen.no/vegnett/veglenkesekvenser/](https://nvdbapiles-v3.atlas.vegvesen.no/vegnett/veglenkesekvenser/)
 
-[https://www.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/FeatureID](https://www.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/20000)
+[https://nvdbapiles-v3.atlas.vegvesen.no/vegnett/veglenkesekvenser/FeatureID](https://nvdbapiles-v3.atlas.vegvesen.no/vegnett/veglenkesekvenser/20000)
 
 This end point exposes you to the beautifull detail of links, nodes and ports (though nodes and ports can be ignored for many use cases). 
 
-This end point supports most, but not all of the filters described under the [./NVDB features](./konsept3_vegobjekter.md). See the [documentation](https://nvdbapilesv3.docs.apiary.io/#reference/0/vegnett-lenkesekvens/vegnett-veglenkesekvens) for details. 
+This end point supports most, but not all of the filters described under the [./NVDB features](./konsept3_vegobjekter.md). See the [documentation](https://nvdbapiles-v3.atlas.vegvesen.no/dokumentasjon/openapi/) for details. 
 
 ### The sligthly more consumer friendly: /vegnett/veglenkesekvenser/segmentert
 
-We have a slightly more user friendly version of the road network available through the _"Segmentert vegnett"_ (segmented road network) end point [https://www.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert](https://www.vegvesen.no/nvdb/api/v3/vegnett/veglenkesekvenser/segmentert). It is called _segmented_ because we add information about [road reference](./konsept4_roadreference.md) and other administrative data through a segmentation process, so each link may be split into several tiny pieces. 
+We have a slightly more user friendly version of the road network available through the _"Segmentert vegnett"_ (segmented road network) end point [https://nvdbapiles-v3.atlas.vegvesen.no/vegnett/veglenkesekvenser/segmentert](https://nvdbapiles-v3.atlas.vegvesen.no/vegnett/veglenkesekvenser/segmentert). It is called _segmented_ because we add information about [road reference](./konsept4_roadreference.md) and other administrative data through a segmentation process, so each link may be split into several tiny pieces. 
 
 This end point supports most, but not all of the filters described under the [./NVDB features](./konsept3_vegobjekter.md). 
 
 The NVDB api V2 has a similar representation, with similar filtering capabilities. 
 
-  * [V3 documentation](https://nvdbapilesv3.docs.apiary.io/#reference/0/vegnett-node/segmenter-for-veglenkesekvens) 
+  * [V3 documentation](https://nvdbapiles-v3.atlas.vegvesen.no/dokumentasjon/openapi/#/Vegnett/get_vegnett_veglenkesekvenser_segmentert) 
   * [V2 documentation](https://api.vegdata.no/endepunkt/vegnett.html)
 

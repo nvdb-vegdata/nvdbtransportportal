@@ -30,7 +30,7 @@ In our web application [vegkart](./vegkart.md) the data catalogue is found by to
 
 Vegobjekttyper = types of NVDB features (road features, veg = road). 
 
-[https://www.vegvesen.no/nvdb/api/v3/vegobjekttyper/](https://www.vegvesen.no/nvdb/api/v3/vegobjekttyper/) will list all NVDB feature types. Usually, you'd want to restrict the result to one particular feature type by appending the feature type ID: `https://www.vegvesen.no/nvdb/api/v3/vegobjekttyper/<featureTypeID>`. Further drill-down to specific property types (by ID) is possible. 
+[https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekttyper/](https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekttyper/) will list all NVDB feature types. Usually, you'd want to restrict the result to one particular feature type by appending the feature type ID: `https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekttyper/<featureTypeID>`. Further drill-down to specific property types (by ID) is possible. 
 
 ### Java
 

@@ -1,6 +1,6 @@
 # NVDB features
 
-All features from the NVDB data cataloge (except for [a few that we aren't able to share freely](https://www.vegdata.no/bruk-av-data/objekttyper-vi-ikke-publiserer/)) are available for download through the [/vegobjekter/featureTypeID](https://www.vegvesen.no/nvdb/api/v3/vegobjekter) end point 
+All features from the NVDB data cataloge (except for [a few that we aren't able to share freely](https://www.vegdata.no/bruk-av-data/objekttyper-vi-ikke-publiserer/)) are available for download through the [/vegobjekter/featureTypeID](https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter) end point 
 
 The feature type ID is found in the [NVDB data cataloge](./konsept2_datakatalog.md). 
 
@@ -13,15 +13,15 @@ Obviously, you will find all relevant details for each road object by following 
   "objekter": [
     {
       "id": 78697179,
-      "href": "https://www.vegvesen.no/nvdb/api/v3/vegobjekter/105/78697179/1"
+      "href": "https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/105/78697179/1"
     },
     {
       "id": 78697180,
-      "href": "https://www.vegvesen.no/nvdb/api/v3/vegobjekter/105/78697180/1"
+      "href": "https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/105/78697180/1"
     },
     {
       "id": 78697181,
-      "href": "https://www.vegvesen.no/nvdb/api/v3/vegobjekter/105/78697181/1"
+      "href": "https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/105/78697181/1"
     }
   ],
   "metadata": {
@@ -30,7 +30,7 @@ Obviously, you will find all relevant details for each road object by following 
     "sidestørrelse": 3,
     "neste": {
       "start": "7KZjpAnmxcNjmSt3bfGHgWowDsciKGkE4gYbfFBRAHudhjGQUHziCQq8K55aBtZPKseXih8zbx2FGZuPT3P96q7NYjNgo42m4SsChxHn",
-      "href": "https://www.vegvesen.no/nvdb/api/v3/vegobjekter/105?antall=3&start=7KZjpAnmxcNjmSt3bfGHgWowDsciKGkE4gYbfFBRAHudhjGQUHziCQq8K55aBtZPKseXih8zbx2FGZuPT3P96q7NYjNgo42m4SsChxHn"
+      "href": "https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/105?antall=3&start=7KZjpAnmxcNjmSt3bfGHgWowDsciKGkE4gYbfFBRAHudhjGQUHziCQq8K55aBtZPKseXih8zbx2FGZuPT3P96q7NYjNgo42m4SsChxHn"
     }
   }
 }
@@ -42,11 +42,11 @@ Obviously, you will find all relevant details for each road object by following 
 inkluder=alle
 inkluder=metadata,egenskaper,relasjoner,lokasjon,vegsegmenter,geometri
 
-https://www.vegvesen.no/nvdb/api/v3/vegobjekter/105?inkluder=alle&antall=3
+https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/105?inkluder=alle&antall=3
 ```
 
 # Filters
 
-NVDB api has extensive filter capabilities, including [road reference](./konsept4_roadreference.md), [road network](./konsept5_network.md) link sequence ID and position, feature properties, administrative areas and bounding box (the _kartutsnitt_ parameter). Examples can be found in the NVDB api [V2](https://api.vegdata.no/parameter/avansertefilter.html) and [V3](https://nvdbapilesv3.docs.apiary.io/#reference/0/vegobjekter). 
+NVDB api has extensive filter capabilities, including [road reference](./konsept4_roadreference.md), [road network](./konsept5_network.md) link sequence ID and position, feature properties, administrative areas and bounding box (the _kartutsnitt_ parameter). Examples can be found in the NVDB api [V2](https://api.vegdata.no/parameter/avansertefilter.html) and [V3](https://nvdbapiles-v3.atlas.vegvesen.no/dokumentasjon/). 
 
 
