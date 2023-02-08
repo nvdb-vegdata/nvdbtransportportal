@@ -1,6 +1,6 @@
 # Road reference system
 
-The reference system will label each and every road in Norway with a road category, a road number and a metering system. Starting the year 2020, we had a major upgrade of the reference system. For technical reason, we have to run the old system in parallel with the new untill August 2021. The two systems are available through version 2 (old) and version 3 (new) of NVDB api and Vegkart. 
+The reference system will label each and every road in Norway with a road category, a road number and a metering system. 
 
 ## Road divided into strekning, delstrekning and meters 
 
@@ -38,24 +38,3 @@ Here we show the anchor point (red) at the main center line **Ev6 S184D1 m9087**
 ![Motorway junction](./pics/vegsystem_ankerpunkt.png)
 
 Here we show the numbering of 4 different ramps _(kryssdel number Kd1-4)_ each with its own metering system. The anchor point _(ankerpunkt)_ is shown in red. 
-
- 
-# Old road reference system (before 2019-12-31) 
-
-The old reference system is no longer in use from January 1st, 2020, but will be available through version 2 of NVDB api and vegkart untill August 2021. The components are: 
-
-  * _Fylkesnummer_ = County number
-  * _Kommunenummer_ = Municipality number. Always 00 for road category E, R and F. 
-  * Road category: E, R, F, K, P or S. 
-  * Road status
-  * Road number
-  * _hovedparsel_, Hp - Road segment number
-  * meters. 
-  
-Along each _hovedparsel_ we count meters, starting at 0 for each new _hovedparsel_. This is not entirely unlike the new system of _delstrekning_, but the values of those two systems should not be used interchangeably. There is consideraby logic involved in the codes for road status and the number series for _hovedparsell_ and meters, se [here](https://api.vegdata.no/verdi/vegreferanse.html) for details. All this information is held in one single feature type: [532 vegreferanse](https://datakatalogen.vegdata.no/532-Vegreferanse). 
-
-![vegkart reference](./pics/vegkart_ny_og_gammel.png)
-
-Comparing old (left) and new (right) road reference system. 
-
-

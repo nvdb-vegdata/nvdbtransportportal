@@ -1,6 +1,6 @@
 # Road network  
 
-The NVDB road network is combined with NVDB feature types in a wide range of applications and products. You may utilize a pre-made product, query the NVDB api, or use the "show network" toggle switch in [Vegkart version 3](./vegkart.md). 
+The NVDB road network is combined with NVDB feature types in a wide range of applications and products. You may utilize a pre-made product, query the NVDB api, or use the "show network" toggle switch in [Vegkart](./vegkart.md). 
 
 ![Show road network in Vegkart](./pics/vegnett_vegkart.png)
 
@@ -13,23 +13,23 @@ The NVDB road network and relevant feature types (such as restrictions and speed
 
 ### Elveg and Elveg 2.0 
 
-Elveg has been the official route planning product since mid-1990's, although with several modifications. The format is [Norwegian SOSI](https://www.kartverket.no/en/geodataarbeid/SOSI-Standard-in-English/SOSI-Standard-in-English/). Elveg is distributed through the Norwegian mapping authority [metadata and distribution portal](https://kartkatalog.geonorge.no/?text=elveg). 
+Elveg has been the official route planning product since mid-1990's, although with several modifications. The format is [Norwegian SOSI](https://www.kartverket.no/en/geodataarbeid/standardisering/sosi-standarder2). Elveg is distributed through the Norwegian mapping authority [metadata and distribution portal](https://kartkatalog.geonorge.no/?text=elveg). 
 
-From 2020, the major revised Elveg 2.0 can be downloaded as GML through the Norwegian mapping authority [metadata and distribution portal](https://kartkatalog.geonorge.no/?text=elveg). A test version of Elveg 2.0 can be downloaded from December 2020. 
+Since 2020, the major revised Elveg 2.0 can be downloaded as GML through the Norwegian mapping authority [metadata and distribution portal](https://kartkatalog.geonorge.no/?text=elveg). 
 
 ### Data for NVDB route planning application
 
-The Norwegian Road Administration willingly shares the road network data that we use in our own route planning application. For historical reasons, we've had to produce these data in both esri file geodatabase and spatiaLite formats. At some point, we will scrap support for the esri file geodatabase. There is some rather [crude and rudimentary documentation here](https://www.vegdata.no/2013/08/08/hvor-finner-jeg-vegnettsdata-til-navigasjon/). 
+The Norwegian Road Administration willingly shares the road network data that we use in our own route planning applicationin spatiaLite formats. There is some rather [crude and rudimentary (and somewhat outdated) documentation here](https://www.vegdata.no/2013/08/08/hvor-finner-jeg-vegnettsdata-til-navigasjon/). 
 
 Currently, we publish these data through two parallell channels: 
   * The Norwegian Mapping authority [metadata and distribution channel](https://kartkatalog.geonorge.no/metadata?text=ruteplan)
   * Our [FTP server](ftp://vegvesen.hostedftp.com/~StatensVegvesen/vegnett/) 
 
-We've had some minor quirks with the first one, as soon as we feel confident the quirks are gone for good we'll drop support for ftp. 
+We've had some minor quirks with the first one, as soon as we feel confident the quirks are gone for good we'll drop support for ftp. We also provide a [summary with tips and pitfals](https://github.com/LtGlahn/nvdbspeedlimit) for those particullary interested in this kind of data. 
 
 # NVDB api links and link sequences
 
-In NVDB, the road network is defined through a combination of link sequences, links, nodes and ports. Not all of these details are relevant for every applications. The links alone are plenty for most, but not all use cases. 
+In NVDB, the road network is defined through a combination of link sequences, links, nodes and ports. Not all of these details are relevant for every applications. The links alone are plenty for most, but not all use cases. And most routing applications build the network topology using nodes and links, and ignore the concept of "ports" entirely (the "ports" in NVDB is how links are connected to nodes). 
 
 **Veglenkesekvens = Link sequence** are a-historic (i.e. never expire), and have a linear reference system that always starts at 0 and ends at 1. New link sequences are added as needed, but they never expire. 
 
@@ -75,8 +75,5 @@ We have a slightly more user friendly version of the road network available thro
 
 This end point supports most, but not all of the filters described under the [./NVDB features](./konsept3_vegobjekter.md). 
 
-The NVDB api V2 has a similar representation, with similar filtering capabilities. 
-
   * [V3 documentation](https://nvdbapiles-v3.atlas.vegvesen.no/dokumentasjon/openapi/#/Vegnett/get_vegnett_veglenkesekvenser_segmentert) 
-  * [V2 documentation](https://api.vegdata.no/endepunkt/vegnett.html)
 

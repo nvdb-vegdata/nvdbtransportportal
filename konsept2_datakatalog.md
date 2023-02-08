@@ -20,7 +20,7 @@ The NVDB data catalogue has several manifestations:
 
 ### In your browser: 
 
-[https://datakatalogen.vegdata.no](datakatalogen.vegdata.no) is the most popular and widely used manifestation of the NVDB data catalogue. 
+[datakatalogen.atlas.vegvesen.no/](https://datakatalogen.atlas.vegvesen.no) is the most popular and widely used manifestation of the NVDB data catalogue. 
 
 ### Within Vegkart 
 

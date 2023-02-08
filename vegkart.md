@@ -3,12 +3,7 @@ order: 2
 ---
 # Vegkart 
 
-[Vegkart](https://www.vegvesen.no/nvdb/vegkart/v3) is the tool for learning and browsing NVDB data and road network. For many  use cases the CSV download utility is sufficient, but Vegkart is also an excellent starting point for learning how to build API queries. 
-
-  * [Version 3 of Vegkart](https://www.vegvesen.no/nvdb/vegkart/v3) is still under development, and some advanced features are lacking. The most important change from V2 is 
-    * A major revision of the [road reference system](./konsept4_roadreference.md)
-    * After 1st January 2020, the new administrative areas _fylke_ (region) and _kommune_ (municipality) will be enforced
-  * [Version 2 of Vegkart](http://vegkart.no) will remain avialable untill August 2021 - with the old [road reference system](./konsept4_roadreference.md) and administrative areas according to the year 2019. 
+[Vegkart](https://vegkart.atlas.vegvesen.no) is the tool for learning and browsing NVDB data and road network. For many  use cases the CSV download utility is sufficient, but Vegkart is also an excellent starting point for learning how to build API queries. 
 
 ### Vegkart main components 
 
@@ -24,7 +19,7 @@ order: 2
 
 ### The welcome splash screen 
 
-The welcome splash screen is used to convey important information about NVDB. Beginning in 2020, we change the [road reference system](./konsept4_roadreference.md), which is why the splash screen has a summary about this transition, with relevant links. We also display licencing information, vegkart version and the last time NVDB api was updated. 
+The welcome splash screen is used to convey important information about NVDB, relevant links, licencing information, vegkart version and the last time NVDB api was updated. 
 
 Below, we have highlighted how to close the splash screen and how to prevent it from opening every time you open Vegkart. 
 
@@ -61,8 +56,6 @@ _Legg til filter_ = add filter, _fjern filter_ = remove filter.
   
 # Color coding by attribute values
 
-_Kategoriser_ = in this context, categorize by attribute value, i.e. draw each category with a different color. 
+_Kategoriser_ = in this context, categorize by attribute value, i.e. draw each category with a different color. Note that the sequence of coloring is random. 
 
-This feature is still under development in Vegkart V3, here we show an example of Vegkart V2: 
-
-![vegkart cateogires](./pics/vegkart_v2_kategorisering.png)
+![vegkart cateogires](./pics/vegkartV3_kategorisering.png)

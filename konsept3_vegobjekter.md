@@ -47,6 +47,6 @@ https://nvdbapiles-v3.atlas.vegvesen.no/vegobjekter/105?inkluder=alle&antall=3
 
 # Filters
 
-NVDB api has extensive filter capabilities, including [road reference](./konsept4_roadreference.md), [road network](./konsept5_network.md) link sequence ID and position, feature properties, administrative areas and bounding box (the _kartutsnitt_ parameter). Examples can be found in the NVDB api [V2](https://api.vegdata.no/parameter/avansertefilter.html) and [V3](https://nvdbapiles-v3.atlas.vegvesen.no/dokumentasjon/). 
+NVDB api has extensive filter capabilities, including [road reference](./konsept4_roadreference.md), [road network](./konsept5_network.md) link sequence ID and position, feature properties, administrative areas and bounding box (the _kartutsnitt_ parameter).  [Documentation with examples](https://nvdbapiles-v3.atlas.vegvesen.no/dokumentasjon/). 
 
 

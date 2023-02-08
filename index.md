@@ -10,7 +10,7 @@ data are freely available through [Norwegian Licence for Open Government Data (N
 At these pages we translate a subset of the [NVDB api documentation (in Norwegian)](https://api.vegdata.no) to English. 
 For simple use cases we hope this will be sufficient. However, beware that the NVDB data model and data content
 is complex, and for more complex queries or use cases you will need 
-to understand the Norwegian API documentation or [NVDB data catalogue](https://datakatalogen.vegdata.no). 
+to understand the Norwegian API documentation or [NVDB data catalogue](https://datakatalogen.atlas.vegvesen.no/). 
 
 We also provide a summary of the NVDB content relevant for the [National Access Point](http://transportportal.no), for the categories 
   * [Mobility services](los1.md)
